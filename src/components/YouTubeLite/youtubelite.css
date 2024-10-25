@@ -1,0 +1,50 @@
+.info__video {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.youtube-lite{
+  position: relative;
+  cursor: pointer;
+}
+
+.info__video-container {
+  width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .info__video {
+    height: 350px;
+    margin: 0 auto;
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info__video {
+    height: 350px;
+    margin: 0 auto;
+    min-width: 97%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .info__video {
+    height: 315px;
+    margin: 0 auto;
+    min-width: 420px;
+  }
+}

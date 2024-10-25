@@ -1,0 +1,50 @@
+.header_text {
+  font-family: 'Garamond', serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0.3125rem 0 0.9375rem 0.625rem;
+  text-align: center;
+  width: 16.75rem;
+  background-color: #967d7d;
+  border-radius: 1.25rem;
+  padding: 0.3125rem;
+  font-size: 0.625rem;
+}
+
+.header_text_link {
+  color: #0088cc;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  padding: 0 0.3125rem;
+}
+
+@media screen and (min-width: 414px) {
+  .header_text {
+    margin: 2.5rem 0 0 1.5625rem;
+    width: 22.6875rem;
+    font-size: 0.8125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header_text {
+    line-height: 1.2;
+    margin: 1.875rem 0 0 3.75rem;
+    width: 24.375rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header_text {
+    margin: 3.75rem 0 0 5rem;
+    font-size: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header_text {
+    margin: 4.375rem 0 0 5rem;
+    width: 34.0625rem;
+    font-size: 1.0625rem;
+  }
+}

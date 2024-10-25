@@ -1,0 +1,66 @@
+.footer__title {
+  color: #fff;
+  font-family: Garamond;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0 0 5px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__title {
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 10px;
+  }
+}
+.footer__items {
+  display: flex;
+  flex-direction: column;
+}
+.footer__item {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 0 10px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__item {
+    line-height: 130%;
+    padding-bottom: 7px;
+  }
+}
+.footer__nav {
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .footer__nav {
+    margin: 0 5px 0 0;
+  }
+}
+.footer__container-icon {
+  display: flex;
+}
+.footer__icon {
+  padding-bottom: 40px;
+  padding-left: 10px;
+}
+
+.footer__consultation_copyright {
+  margin-top: 10px;
+  width: 300px;
+}
+.education__diploms-item_size {
+  width: 194px;
+}
+.info__test_margin {
+  margin-top: 10px;
+}
+.consultation__title_margin {
+  margin-top: 0;
+}
+.footer__icon_size {
+  height: 32px;
+  width: 32px;
+}

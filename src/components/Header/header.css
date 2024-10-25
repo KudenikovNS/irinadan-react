@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__img {
+  background: url(../../assets/forHeader2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.header__container {
+  position: relative;
+  z-index: 10;
+}
+
+.header__title,
+.header__subtitle {
+  font-family: "Garamond", serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 0.9375rem;
+  margin: 0.3125rem 0 0.9375rem 0.625rem;
+  width: 10rem;
+}
+
+.header__subtitle {
+  font-size: 0.9375rem;
+  width: 10rem;
+  margin-bottom: 5.625rem;
+}
+
+@media screen and (min-width: 414px) {
+  .header__title {
+    font-size: 1.25rem;
+    margin: 2.5rem 0 0 1.5625rem;
+    width: 12.5rem;
+  }
+
+  .header__subtitle {
+    font-size: 1.25rem;
+    width: 12.5rem;
+    margin-bottom: 4.375rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    font-size: 2.375rem;
+    line-height: 1.2;
+    margin: 1.875rem 0 0 3.75rem;
+    width: 24.375rem;
+  }
+  .header__link {
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header__title {
+    font-size: 2.5rem;
+    margin: 3.75rem 0 0 5rem;
+  }
+
+  .header__subtitle {
+    font-size: 2.5rem;
+  }
+
+  .header__link {
+    font-size: 1.25rem;
+    line-height: 0.7;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header__title {
+    font-size: 3.375rem;
+    margin: 2.5rem 0 0 5rem;
+    width: 34.0625rem;
+  }
+
+  .header__subtitle {
+    font-size: 2.8125rem;
+    margin: 5.5rem 0 4.375rem 5rem;
+    width: 34.0625rem;
+  }
+}

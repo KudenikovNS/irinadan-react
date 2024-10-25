@@ -1,0 +1,77 @@
+.button-reg {
+  background-color: #1c87c9;
+  border: none;
+  border-radius: 60px;
+  color: #eee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: 5px 0 15px 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-reg__footer {
+  font-size: 20px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #a80505;
+    box-shadow: 0 0 3px #a80505;
+  }
+  50% {
+    background-color: #e81919;
+    box-shadow: 0 0 10px #e81919;
+  }
+  to {
+    background-color: #a80505;
+    box-shadow: 0 0 3px #a80505;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #a80505;
+    box-shadow: 0 0 3px #a80505;
+  }
+  50% {
+    background-color: #e81919;
+    box-shadow: 0 0 10px #e81919;
+  }
+  to {
+    background-color: #a80505;
+    box-shadow: 0 0 3px #a80505;
+  }
+}
+
+.button-reg {
+  -webkit-animation: glowing 1.3s infinite;
+  animation: glowing 1.3s infinite;
+}
+@media screen and (min-width: 414px) {
+  .button-reg {
+    font-size: 15px;
+    margin: 20px 0 0 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-reg {
+    margin: 75px 0 0 80px;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button-reg {
+    font-size: 30px;
+    margin: 50px 0 0 130px;
+    width: 454px;
+  }
+  .button-reg__footer {
+    margin: 0;
+  }
+}
