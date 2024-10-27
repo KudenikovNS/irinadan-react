@@ -1,36 +1,42 @@
 import React from "react";
 import { diplomas } from "../../helpers/diplomasData.js";
+import { reviews } from "../../helpers/reviewsData.js";
 import "./education.css";
 
-const DiplomaItem = ({ imgSrc, imgAlt, description, index, offset }) => (
-  <div
-    className={index + offset < 19 ? "education__slide" : "education__slide-2"}
-  >
-    <img className="education__diploms-item" src={imgSrc} alt={imgAlt} />
-    <p
-      className={
-        index + offset < 19
-          ? "education__diploms-subtitle"
-          : "education__diploms-subtitle-2"
-      }
-    >
-      {description}
-    </p>
+const Item = ({
+  imgSrc,
+  imgAlt,
+  description,
+  index,
+  offset,
+  slideClass,
+  subtitleClass,
+}) => (
+  <div className={index + offset < 19 ? slideClass : `${slideClass}-2`}>
+    <img className="item__image" src={imgSrc} alt={imgAlt} />
+    {description && (
+      <p className={index + offset < 19 ? subtitleClass : `${subtitleClass}-2`}>
+        {description}
+      </p>
+    )}
   </div>
 );
 
-const DiplomaGroup = ({ items, groupClass, offset }) => (
+const Group = ({ items, groupClass, offset, slideClass, subtitleClass }) => (
   <div className={groupClass}>
-    {items.map((item, index) => (
-      <DiplomaItem
-        key={index}
-        imgSrc={item.imgSrc}
-        imgAlt={item.imgAlt}
-        description={item.description}
-        index={index}
-        offset={offset}
-      />
-    ))}
+    {items &&
+      items.map((item, index) => (
+        <Item
+          key={index}
+          imgSrc={item.imgSrc}
+          imgAlt={item.imgAlt}
+          description={item.description}
+          index={index}
+          offset={offset}
+          slideClass={slideClass}
+          subtitleClass={subtitleClass}
+        />
+      ))}
   </div>
 );
 
@@ -41,19 +47,42 @@ const Education = () => {
         Образование и квалификация
       </h2>
       <div className="education__items">
-        <DiplomaGroup
+        <Group
           items={diplomas.slice(0, 19)}
-          offset={0}
           groupClass="education__items-group"
+          offset={0}
+          slideClass="education__slide"
+          subtitleClass="education__diploms-subtitle"
         />
-        <DiplomaGroup
+        <Group
           items={diplomas.slice(19)}
-          offset={19}
           groupClass="education__items-group-2"
+          offset={19}
+          slideClass="education__slide"
+          subtitleClass="education__diploms-subtitle"
         />
       </div>
     </section>
   );
 };
 
-export default Education;
+const Reviews = () => {
+  return (
+    <section className="education">
+      <h2 className="education__title title education__education-title">
+        Отзывы и результаты
+      </h2>
+      <div className="education__items">
+        <Group
+          items={reviews.slice(0, 19)}
+          groupClass="education__items-group"
+          offset={0}
+          slideClass="education__slide"
+          subtitleClass="education__diploms-subtitle"
+        />
+      </div>
+    </section>
+  );
+};
+
+export { Education, Reviews };
