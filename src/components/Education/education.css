@@ -1,0 +1,133 @@
+.education__title {
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.education__education-title {
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.education__items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.education__items-group {
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  row-gap: 10px;
+}
+.education__items-group img,
+.items3 img {
+  width: 320px;
+}
+.education__items-group-2 {
+  align-items: center;
+  margin: 10px 0 20px;
+}
+.education__items-group-2,
+.items3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.items3 {
+  margin-top: 10px;
+}
+
+.education__slide-2 {
+  width: 194px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .education__title {
+    font-size: 30px;
+    line-height: 85%;
+    margin: 25px auto 5px;
+  }
+
+  .education__education-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .education__items-group {
+    grid-template-columns: repeat(2, auto);
+  }
+  .education__items-group,
+  .education__items-group-2 {
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    row-gap: 10px;
+  }
+  .education__items-group-2 {
+    align-items: start;
+    grid-template-columns: repeat(3, auto);
+  }
+  .items3 {
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .education__items-group {
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 10px;
+  }
+  .education__items-group-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+  }
+  .education__items-group-2,
+  .items3 {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .items3 {
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+  }
+}
+.education__diploms-subtitle {
+  font-family: Cormorant Garamond;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 auto 15px;
+  text-align: center;
+  width: 320px;
+}
+
+.education__diploms-subtitle-2 {
+  font-family: Cormorant Garamond;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.education__slide {
+  text-align: center;
+}
+

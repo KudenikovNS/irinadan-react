@@ -1,6 +1,13 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
+import Education from './components/Education/Education';
+import Reviews from './components/Reviews/Reviews';
 import Footer from "./components/Footer/Footer";
+
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import "./App.css";
 
@@ -16,11 +23,18 @@ loadGoogleFonts();
 
 const App = () => {
   return (
-    <div className="page__container">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+    <ScrollToTop />
+      <div className="page__container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/reviews" element={<Reviews />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

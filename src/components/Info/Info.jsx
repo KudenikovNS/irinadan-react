@@ -1,9 +1,9 @@
 import React from "react";
 
-import YouTubeLite from "../YouTubeLite/YouTubeLite ";
+import YouTubeLite from "../YouTubeLite/YouTubeLite";
 
 import "./info.css";
-import marks from "../../assets/marks.svg";
+import marks from "../../assets/icons/marks.svg";
 
 const Info = () => {
   return (

@@ -3,7 +3,6 @@ import React from 'react';
 import FooterNav from '../FooterNav/FooterNav';
 import BtnReg from '../btnReg/BtnReg';
 
-import copyright from '../../assets/Kudenikov2.jpg';
 import './footer.css'
 
 const Footer = () => {
@@ -24,19 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="footer__copyright">
-        &copy; 2024 сайт сделан by
-        <a
-          className="footer__copyright-link"
-          href="https://t.me/kudnik"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={copyright}
-            alt="Логотип создателя сайта"
-            className="footer__copyright-img"
-          />
-        </a>
+        &copy; ЗАО «СовЭкоТех»
       </p>
     </footer>
   );

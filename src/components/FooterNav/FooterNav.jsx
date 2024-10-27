@@ -1,10 +1,10 @@
 import React from 'react';
 
-import youtube from "../../assets/YouTube_32px.png"
-import telegram from "../../assets/telegram_32px.png"
-import tiktok from "../../assets/tikTok_32px.png"
-import instagram from "../../assets/Instagram_32px.png"
-import b17 from "../../assets/b17_32px.png"
+import youtube from "../../assets/icons/YouTube_32px.png"
+import telegram from "../../assets/icons/telegram_32px.png"
+import tiktok from "../../assets/icons/tikTok_32px.png"
+import instagram from "../../assets/icons/Instagram_32px.png"
+import b17 from "../../assets/icons/b17_32px.png"
 
 import './footerNav.css'
 
