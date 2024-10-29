@@ -26,12 +26,6 @@
   gap: 10px;
 }
 
-@media screen and (min-width: 414px){
-  .info__video-img {
-    flex-direction: row;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .info__marks {
     margin: 20px auto;

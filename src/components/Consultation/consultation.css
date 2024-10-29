@@ -178,10 +178,6 @@ a.consultation__link:hover:before {
   text-align: center;
 }
 
-
-
-
-
 @media screen and (min-width: 1024px) {
   .consultation__title {
     min-width: 160px;
@@ -277,7 +273,6 @@ ol li:last-child:before {
     margin-bottom: 20px;
   }
 }
-
 
 
 @media screen and (min-width: 800px) {

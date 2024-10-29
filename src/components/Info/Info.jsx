@@ -41,30 +41,3 @@ const Info = () => {
 };
 
 export default Info;
-
-{
-  /* <iframe
-className="info__video"
-src="https://www.youtube.com/embed/OesDVPYSMFw?controls=0"
-title="YouTube video player"
-frameBorder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowFullScreen
-></iframe>
-<iframe
-className="info__video close"
-src="https://www.youtube.com/embed/R41rRiKeiM4?controls=0"
-title="YouTube video player"
-frameBorder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowFullScreen
-></iframe>
-<iframe
-className="info__video"
-src="https://www.youtube.com/embed/QW_nld1-4dI?controls=0"
-title="YouTube video player"
-frameBorder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowFullScreen
-></iframe> */
-}

@@ -48,14 +48,14 @@ const Education = () => {
       </h2>
       <div className="education__items">
         <Group
-          items={diplomas.slice(0, 19)}
+          items={diplomas.slice(0, 18)}
           groupClass="education__items-group"
           offset={0}
           slideClass="education__slide"
           subtitleClass="education__diploms-subtitle"
         />
         <Group
-          items={diplomas.slice(19)}
+          items={diplomas.slice(18)}
           groupClass="education__items-group-2"
           offset={19}
           slideClass="education__slide"
