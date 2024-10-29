@@ -20,7 +20,7 @@ const Consultation = () => {
       </div>
       <div className="consultation__container-price-contract">
         <a
-          href="https://drive.google.com/file/d/1IUfJNEQDcqUKH_71dKKqK3lpOBiAWKo6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1aazuWoB9N2mMFlDUNajzcBTd9Yjhu1C6/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="consultation__link consultation__link_margin"
@@ -28,7 +28,7 @@ const Consultation = () => {
           Прайс на услуги
         </a>
         <a
-          href="https://drive.google.com/file/d/13lszZPTBPFoB2EkpnHZfFwEW4uBrvKVI/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bxDUI3gpzzRb5AttT0T0OWNvaa2svBv0/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="consultation__link"
@@ -79,7 +79,7 @@ const Consultation = () => {
             </p>
           </div>
           <a
-            href="https://drive.google.com/file/d/1FH2brAg0To2KPNbwUkZYwIx5FcnK0gFP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lluziHJHHpOmq3jPdZWNX5WPdPj4G6Z4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="consultation__link consultation__link_margin"
@@ -92,7 +92,7 @@ const Consultation = () => {
             СКРЫТЫЙ НАРЦИССИЗМ ПАРТНЕРА
           </p>
           <a
-            href="https://drive.google.com/file/d/1eshmPXF4f6q-UVC10H7S4lKAYojYY1wY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lluziHJHHpOmq3jPdZWNX5WPdPj4G6Z4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="consultation__link consultation__link_margin consultation__link-check-list"
@@ -105,7 +105,7 @@ const Consultation = () => {
             СКЛОННОСТЬ К СОЗАВИСИМОСТИ
           </p>
           <a
-            href="https://drive.google.com/file/d/1bUpL60-vRaw5nu2vpNKYHa4K_0gJmWyg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wMBvhHv0rwe2W_qr7tOt-66D0cIpbI0Q/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="consultation__link consultation__link_margin"
@@ -118,7 +118,7 @@ const Consultation = () => {
             СКРЫТЫЙ ПЕРФЕКИОНИЗМ
           </p>
           <a
-            href="https://drive.google.com/file/d/1VzTXPLMF9AAMGSw5qgG79SdzjxrqToKZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qINIg2I3RhIpOZNAjkSWEbK35fVTIAt8/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="consultation__link consultation__link_margin"
