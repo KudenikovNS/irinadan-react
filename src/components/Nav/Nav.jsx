@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
+
 import { Link } from "react-router-dom";
 import "./nav.css";
 
 const Nav = () => {
+
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+
   return (
     <section className="top-nav">
       <input id="menu-toggle" type="checkbox" />
@@ -17,10 +31,10 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <a className="nav__link header__link" href="#info">
+          <Link className="nav__link header__link" to="/#info">
             Работа <br />
             психолога
-          </a>
+          </Link>
         </li>
         <li>
           <Link className="nav__link header__link" to="/education">
@@ -28,10 +42,10 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <a className="nav__link header__link" href="#consultation">
+          <Link className="nav__link header__link" to="/#consultation">
             Психологические <br />
             консультации
-          </a>
+          </Link>
         </li>
         <li>
           <a className="nav__link header__link" href="#footer">
