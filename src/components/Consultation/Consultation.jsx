@@ -20,7 +20,7 @@ const Consultation = () => {
       </div>
       <div className="consultation__container-price-contract">
         <a
-          href="https://drive.google.com/file/d/1aazuWoB9N2mMFlDUNajzcBTd9Yjhu1C6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ck38iQM_sYhbbBL5uYcOeFgxP2pOGNNk/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="consultation__link consultation__link_margin"
