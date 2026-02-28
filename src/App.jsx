@@ -22,7 +22,7 @@ loadGoogleFonts();
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
     <ScrollToTop />
       <div className="page__container">
         <Header />

@@ -1,9 +1,6 @@
-import React from 'react';
-
 import youtube from "../../assets/icons/YouTube_32px.png"
 import telegram from "../../assets/icons/telegram_32px.png"
 import tiktok from "../../assets/icons/tikTok_32px.png"
-import instagram from "../../assets/icons/Instagram_32px.png"
 import b17 from "../../assets/icons/b17_32px.png"
 
 import './footerNav.css'
@@ -21,7 +18,7 @@ const FooterNav = () => {
       </a>
       <a
         className="footer__icon"
-        href="https://t.me/irdan_online1"
+        href="https://t.me/irdan_psy1"
         target="_blank"
         rel="noreferrer"
       >
@@ -34,14 +31,6 @@ const FooterNav = () => {
         rel="noreferrer"
       >
         <img src={tiktok} alt="Tik-Tok" />
-      </a>
-      <a
-        className="footer__icon"
-        href="https://www.instagram.com/irdan_psy/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={instagram} alt="Instagram" />
       </a>
       <a
         className="footer__icon"

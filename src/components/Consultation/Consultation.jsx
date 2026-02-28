@@ -20,12 +20,12 @@ const Consultation = () => {
       </div>
       <div className="consultation__container-price-contract">
         <a
-          href="https://drive.google.com/file/d/1ck38iQM_sYhbbBL5uYcOeFgxP2pOGNNk/view?usp=sharing"
+          href="https://drive.google.com/file/d/1K8UlMgnrQ72NmuT3_hDia08zy_mTSE-N/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="consultation__link consultation__link_margin"
         >
-          Прайс на услуги
+          Стоимость услуг
         </a>
         <a
           href="https://drive.google.com/file/d/1bxDUI3gpzzRb5AttT0T0OWNvaa2svBv0/view?usp=sharing"
@@ -40,7 +40,7 @@ const Consultation = () => {
         className="consultation__title consultation__title_margin"
         id="consultation__check-list"
       >
-        Чек-листы и тесты*
+        Инструкции и тесты*
       </h2>
       <div className="consultation__table">
         <div className="consultation__table-item">
@@ -66,7 +66,7 @@ const Consultation = () => {
               Если тоскливое состояние начало накатывать относительно недавно,
               случается время от времени, связана с какими-то событиями
               (расставание, неудача на работе, ссора с подругой, не достигнута
-              цель и пр.) - то этот ЧЕК-ЛИСТ поможет вам выбраться из хандры.
+              цель и пр.) - то эта ИНСТРУКЦИЯ поможет вам выбраться из хандры.
               <br />
               Делаем это каждый день!
               <br />
@@ -84,7 +84,7 @@ const Consultation = () => {
             rel="noreferrer"
             className="consultation__link consultation__link_margin"
           >
-            Чек-лист
+            Инструкция
           </a>
         </div>
         <div className="consultation__table-item">

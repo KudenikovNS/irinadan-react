@@ -1,5 +1,3 @@
-import React from 'react';
-
 import FooterNav from '../FooterNav/FooterNav';
 import BtnReg from '../btnReg/BtnReg';
 
